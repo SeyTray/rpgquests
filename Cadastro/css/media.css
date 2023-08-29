@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px){
+    .div-form .title h2{
+        font-size: 35px;
+    }
+    .div-image{
+        display: none;
+    }
+    .div-form{
+        width: 100%;
+    }
+}

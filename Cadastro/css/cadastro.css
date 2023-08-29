@@ -1,0 +1,113 @@
+
+
+.div-form{
+    width: 40%;
+    height: 100vh;
+
+    float: left;
+
+    background-color: #211829;
+}
+
+.div-image{
+    width: 60%;
+    height: 100vh;
+
+    float: right;
+
+    background-color: red;
+}
+
+.div-form .title{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.div-form .title h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+.div-form div.form-container{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+form.form-login{
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+form.form-login div.input-single{
+    padding-left: 20%;
+}
+
+form.form-login div.input-single p{
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+form.form-login div.input-single input[type="text"], 
+form.form-login div.input-single input[type="email"],
+form.form-login div.input-single input[type="password"]{
+    width: 70%;
+    height: 28px;
+    max-width: 380px;
+    margin-top: 10px;
+    font-size: 14px;
+    border: 0;
+    background-color: #51465B;
+    padding: 0 2%;
+    color: white;
+}
+::-webkit-input-placeholder {
+    color: #ABA0A0;
+ }
+
+form.form-login div.input-single input[type="text"]:focus,
+form.form-login div.input-single input[type="email"]:focus,
+form.form-login div.input-single input[type="password"]:focus{
+    outline: 0;
+}
+
+form.form-login div.input-single input[type="submit"]{
+    margin: 30px 0;
+    height: 30px;
+    width: 60%;
+    max-width: 160px;
+    background-color: #51465B;
+    border: 0;
+    border-radius: 10px;
+    color: #ABA0A0;
+    cursor:pointer;
+    transition: 0.3s;
+}
+form.form-login div.input-single input[type="submit"]:hover{
+    margin: 30px 0;
+    height: 30px;
+    width: 60%;
+    max-width: 160px;
+    background-color: #756584;
+    border: 0;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor:pointer;
+
+}
+
+form.form-login div.input-single div.form-links p{
+    font-size: 16px;
+    cursor: pointer;
+}
+.div-image{
+    background-image: url(../images/LoginTaverna.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:0;
+}
